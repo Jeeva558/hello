@@ -12,7 +12,7 @@ public static void main(String[] args)
 	{
 		for(int i=cn.length-1;i>=0;i--)
 		{
-			if(String.valueOf(cn).replaceAll("\0", "").length()==1)
+			if(String.valueOf(cn).length()==1)
 			{
 				break;
 			}
@@ -37,7 +37,7 @@ public static void main(String[] args)
 	{
 		for(int i=dn.length-1;i>=0;i--)
 		{
-			if(String.valueOf(dn).replaceAll("\0", "").length()==1)
+			if(String.valueOf(dn).length()==1)
 			{
 				break;
 			}
