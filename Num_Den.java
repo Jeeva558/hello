@@ -56,7 +56,7 @@ public static void main(String[] args)
 			
 			
 		}
-		System.out.println(String.valueOf(cn)+"/"+String.valueOf(dn));		
+		 System.out.println(String.valueOf(cn)+"/"+String.valueOf(dn));		
 	}
 }
 }
